@@ -18,10 +18,42 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
+
+
+.focus-text-chamoisee:focus{
+  color: #A98467;
+}
+.text-umber{
+  color: #6C584C;
+}
+
+.text-olivine{
+  color:#ADC178;
+}
+
+.text-chamoisee{
+  color: #A98467;
+}
+
+.text-parchment{
+  color: #F0EAD2;
+}
+
+.bg-parchment{
+  background-color: #F0EAD2;
+}
+
+.bg-olivine{
+  background-color:#ADC178;
+}
+
+.bg-tea{
+  background-color: #DDE5B6;
+}
+
+.outline-umber{
+  outline-color: #6C584C;
+}
+
+
